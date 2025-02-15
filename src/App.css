@@ -1,0 +1,19 @@
+.main-layout {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px; /* Adjust based on your navbar height */
+}
+
+.content {
+  flex: 1;
+  margin: 0 200px; /* Adjust based on sidebar width */
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin: 0; /* Remove margins when sidebars are hidden */
+  }
+}
+

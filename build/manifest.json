@@ -1,0 +1,62 @@
+{
+  "short_name": "Image Tools",
+  "name": "Image and PDF Tool",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot-wide1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/screenshot-wide2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/screenshot-wide3.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/screenshot-mobile1.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/screenshot-mobile2.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/screenshot-mobile3.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ]
+}

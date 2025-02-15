@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+/* Create a container with a light background color */
+.crop-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for the box */
+  padding: 30px;
+  max-width: 1400px;
+}
+
+h1 {
+  font-size: 35px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #2f73ff; /* Blue color for title */
+}
+
+/* Upload Section */
+.upload-section {
+  border: 2px dashed #2f73ff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff; /* Light background for the upload box */
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.upload-label {
+  text-align: center;
+  color: #2f73ff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Crop Container */
+.crop-container {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  background-color: #ddd;
+  position: relative;
+  margin: 20px 0;
+  overflow: hidden;
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.controls label {
+  font-size: 14px;
+}
+
+button {
+  background-color: #2f73ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #1e5bbf;
+}
+
+/* Preview Section */
+.preview img {
+  max-width: 400px;
+  height: auto;
+  border: 2px solid #2f73ff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Add Subtitle Styling */
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .crop-container {
+    height: 300px;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .controls input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .crop-container {
+    height: 250px;
+  }
+
+  .preview img {
+    max-width: 100%;
+  }
+}

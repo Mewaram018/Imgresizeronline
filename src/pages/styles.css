@@ -1,0 +1,23 @@
+.crop-editor {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .crop-options {
+    margin-bottom: 20px;
+  }
+  
+  .crop-options label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .crop-preview {
+    margin-top: 20px;
+  }
+  
+  .download-section {
+    margin-top: 20px;
+  }
+  
+  
